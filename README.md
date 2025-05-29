@@ -23,10 +23,10 @@ GitHub Actions 워크플로우를 통해 다음과 같이 자동화된 배포가
 ## 주요 링크
 
 - **S3 버킷 웹사이트 엔드포인트**:  
-  `http://wontaezia-static-next-app.s3-website.ap-northeast-2.amazonaws.com/`
+  [http://wontaezia-static-next-app.s3-website.ap-northeast-2.amazonaws.com/](http://wontaezia-static-next-app.s3-website.ap-northeast-2.amazonaws.com/)
 
 - **CloudFront 배포 도메인 이름**:  
-  `https://dejz932xpzv2f.cloudfront.net/`
+  [https://dejz932xpzv2f.cloudfront.net/](https://dejz932xpzv2f.cloudfront.net/)
 
 ## 주요 개념
 
