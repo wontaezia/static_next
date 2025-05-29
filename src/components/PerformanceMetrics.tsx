@@ -26,10 +26,34 @@ export  const PerformanceMetrics = ({ metrics }: PerformanceMetricsProps) => {
       textColor: 'text-yellow-600',
     },
     {
-      label: 'JS 크기',
-      value: formatFileSize(metrics.totalJSSize),
+      label: 'LCP',
+      value: formatDuration(metrics.largestContentfulPaint),
+      bgColor: 'bg-red-50',
+      textColor: 'text-red-600',
+    },
+    {
+      label: 'TTI',
+      value: formatDuration(metrics.timeToInteractive),
       bgColor: 'bg-purple-50',
       textColor: 'text-purple-600',
+    },
+    {
+      label: 'CSS 크기',
+      value: formatFileSize(metrics.totalCSSSize),
+      bgColor: 'bg-gray-50',
+      textColor: 'text-gray-600',
+    },
+    {
+      label: 'JS 크기',
+      value: formatFileSize(metrics.totalJSSize),
+      bgColor: 'bg-orange-50',
+      textColor: 'text-orange-600',
+    },
+    {
+      label: '이미지 크기',
+      value: formatFileSize(metrics.totalImageSize),
+      bgColor: 'bg-pink-50',
+      textColor: 'text-pink-600',
     },
   ];
 
